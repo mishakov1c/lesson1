@@ -3,5 +3,6 @@ def format_price(price):
     result = f'Цена: {price} руб.'
     return result
 
-result = format_price(56.24)
+price = 56.24
+result = format_price(price)
 print(result)
